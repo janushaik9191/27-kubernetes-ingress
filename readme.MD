@@ -4,7 +4,7 @@
 ```
 eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
-    --cluster expenss-cluster-1 \
+    --cluster expense-cluster-1 \
     --approve
 ```
 2. Download IAM policy for load balancer controller
