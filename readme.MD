@@ -1,12 +1,12 @@
 # Ingress controller set up
-```
+
 Download OIDC provider
 ```
 eksctl utils associate-iam-oidc-provider \
     --region us-east-1 \
     --cluster expenss-cluster-1 \
     --approve
-
+```
 Download IAM policy for load balancer controller
 
 curl -o iam-policy.json https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.10.0/docs/install/iam_policy.json
